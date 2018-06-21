@@ -1,0 +1,17 @@
+dream:
+  weixin:
+    wxa-msg-parser: xml
+    dev-mode: true
+    wx-configs:
+      - appId: wx6f9b596595e50e91
+        appSecret: 7fd09acd7e0171253e90d00be9f185f2
+        token: d6863eb43ba41785f11df85db34384a3
+    url-patterns: /dyd/wx/*
+
+server:
+  port: 8088
+
+spring:
+  cache:
+    type: redis
+
